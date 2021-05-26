@@ -1,0 +1,15 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.title-bar {
+    -webkit-app-region: drag;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    background-color: #03a9f4;
+    padding: none;
+    margin: 0px;
+}
