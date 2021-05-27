@@ -1,0 +1,38 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+div{
+    -webkit-app-region: drag;
+}
+
+#main-panel
+{
+    background-color: #82F0D1;
+    width: 100vw;
+    height: 100vh;
+}
+
+#concentrated-panel
+{
+    
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    margin: 1.25% 2.5%;
+
+    background: #00D6C9;
+    border-radius: 50px;    
+}
+
+#exitButton
+{
+    height: 2%;
+    vertical-align: middle;
+    margin-left: 95%;
+}
+
+#content {
+    display:flex;
+}

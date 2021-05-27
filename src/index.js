@@ -16,18 +16,17 @@ const createWindow = () => {
   var mainScreen = screenElectron.getPrimaryDisplay();
   var dimensions = mainScreen.size;
   
-  console.log(dimensions.width + "x" + dimensions.height);
+  // console.log(dimensions.width + "x" + dimensions.height);
   app.allowRendererProcessReuse = true;
   mainWindow = new BrowserWindow({
     width: dimensions.width,
     height: dimensions.height,
     autoHideMenuBar: true,
-    frame: false,
   });
 
-
+  mainWindow.maximize()
   // and load the index.html of the app.
-  mainWindow.loadURL(`file://${__dirname}/index.html`);
+  mainWindow.loadURL(`file://${__dirname}/registration/index.html`);
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools();
